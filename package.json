@@ -1,0 +1,18 @@
+{
+  "name": "babel-plugin-vconsole",
+  "version": "1.0.0",
+  "description": "A babel plugin which can inject vConsole when developing and remove it when building.",
+  "main": "index.js",
+  "repository": "https://github.com/wjq990112/vconsole-babel-plugin.git",
+  "author": "wjq990112 <1163585385@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon cli.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.13.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
