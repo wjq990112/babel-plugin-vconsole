@@ -7,7 +7,8 @@
   "author": "wjq990112 <1163585385@qq.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon cli.js"
+    "start:dev": "NODE_ENV=development nodemon cli.js",
+    "start:prod": "NODE_ENV=production nodemon cli.js"
   },
   "dependencies": {
     "@babel/core": "^7.13.8"
